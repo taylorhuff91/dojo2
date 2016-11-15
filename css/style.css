@@ -1,4 +1,5 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 html {
     color: #222;
@@ -56,8 +57,56 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    background: #0f5677;
+    font-family: 'Montserrat', sans-serif;
+}
 
+h1 {
+    color: #0f5677;
+    text-align: center;
+    padding-bottom: 30px;
+}
 
+.main {
+    width: 600px;
+    margin: auto;
+    background: #f8f8f8;
+    padding: 30px;
+    margin-top: 20%;
+}
+
+.rom-output {
+    font-size: 24px;
+    text-align: center;
+    padding-top: 20px;
+    color: #aa2626;
+    padding-right: 18%;
+    margin-bottom: 30px;
+}
+
+.convert-bar {
+    width: 80%;
+    margin: 30px 10%;
+}
+
+input {
+    width: 80%;
+    border: none;
+    border-bottom: 3px solid #0f3777;
+    background: #f8f8f8;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    color: #aa2626;
+}
+
+button {
+    background: #f8f8f8;
+    box-shadow: none;
+    border: 3px solid #0f3777;
+    color: #0f3777;
+}
 
 
 
